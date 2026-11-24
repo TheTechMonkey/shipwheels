@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "shipwheels",
+  "version": "${version}",
+  "name": "Ship Wheels",
+  "description": "Decorative ship's wheels in every wood. Put one on a wall, a post or a fence and right-click it to give it a spin.",
+  "authors": [
+    "TechMonkey"
+  ],
+  "contact": {
+    "sources": "https://github.com/TheTechMonkey/shipwheels"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.techmonkey.shipwheels.ShipWheels"
+    ],
+    "client": [
+      "com.techmonkey.shipwheels.client.ShipWheelsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}

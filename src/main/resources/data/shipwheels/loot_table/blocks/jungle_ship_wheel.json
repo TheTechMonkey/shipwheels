@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shipwheels:jungle_ship_wheel"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "shipwheels:blocks/jungle_ship_wheel"
+}

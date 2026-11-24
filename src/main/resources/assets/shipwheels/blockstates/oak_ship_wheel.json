@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "shipwheels:block/oak_ship_wheel"
+    },
+    "facing=east": {
+      "model": "shipwheels:block/oak_ship_wheel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shipwheels:block/oak_ship_wheel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shipwheels:block/oak_ship_wheel",
+      "y": 270
+    }
+  }
+}

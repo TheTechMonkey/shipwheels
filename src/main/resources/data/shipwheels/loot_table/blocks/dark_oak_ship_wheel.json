@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shipwheels:dark_oak_ship_wheel"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "shipwheels:blocks/dark_oak_ship_wheel"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    "SPS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:stick",
+    "P": "minecraft:acacia_planks"
+  },
+  "result": {
+    "id": "shipwheels:acacia_ship_wheel",
+    "count": 1
+  }
+}
